@@ -1,3 +1,4 @@
+// TODO: propose 5 more descriptive variable names to replace num, num2, num3, list, and lis
 public class ImmutableSort {
     public static void main(String[] args) {
         int[] a = {6, 2, 1};

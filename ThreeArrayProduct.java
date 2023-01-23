@@ -1,5 +1,4 @@
-import org.w3c.dom.ranges.Range;
-
+// good
 public class ThreeArrayProduct {
     public static void main(String[] args) {
         int[] a = {2, 1, 3};
