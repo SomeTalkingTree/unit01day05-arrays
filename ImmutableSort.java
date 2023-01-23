@@ -1,31 +1,31 @@
 public class ImmutableSort {
     public static void main(String[] args) {
         int[] a = {6, 2, 1};
-        int num =a[0];
-        int num2 =a[1];
-        int num3 = a[2];
+        int a1 =a[0];
+        int a2 =a[1];
+        int a3 = a[2];
 
-        int list =0;
-        int lis = 0;
-        if(num>num2){
-            list = num;
-            lis =num2;
-            num = lis;
-            num2 = list;
+        int placeholder =0;
+        int placeholder1 = 0;
+        if(a1>a2){
+            placeholder = a1;
+            placeholder1 =a2;
+            a1 = placeholder1;
+            a2 = placeholder;
         }
-        if(num>num3){
-            list = num;
-            lis =num3;
-            num = lis;
-            num3 = list; 
+        if(a1>a3){
+            placeholder = a1;
+            placeholder1 =a3;
+            a1 = placeholder1;
+            a3 = placeholder; 
         }
-        if(num2>num3){
-            list = num2;
-            lis =num3;
-            num2 = lis;
-            num3 = list; 
+        if(a2>a3){
+            placeholder = a2;
+            placeholder1 =a3;
+            a2 = placeholder1;
+            a3 = placeholder; 
         }
-        int[] b = {num,num2,num3};
+        int[] b = {a1,a2,a3};
         System.out.println("Answer is "+b[0]+" "+b[1]+" "+b[2]);
         System.out.println("From the list of "+a[0]+" "+a[1]+" "+a[2]);
     }
